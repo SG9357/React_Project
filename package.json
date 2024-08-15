@@ -1,0 +1,32 @@
+{
+  "name": "react-nr",
+  "version": "1.0.0",
+  "description": "My first project",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Satish Gadde",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SG9357/React_Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SG9357/React_Project/issues"
+  },
+  "homepage": "https://github.com/SG9357/React_Project#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
+  }
+}

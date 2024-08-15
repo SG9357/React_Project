@@ -1,0 +1,127 @@
+.heading {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    border: 1px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+/* .serach{
+    border: 1px solid #000;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+
+.filter-btn{
+    border: 1px solid #000;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.filter-btn:hover,.serach-btn:hover{
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+}
+
+.links {
+    padding-top:20px;
+    padding-right: 20px;
+}
+
+.links > ul {
+    font-size: 17px;
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+}
+
+.res-logo{
+    width: 100%;
+    height: 200px;
+    border-radius: 2%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.res-card {
+    cursor: pointer;
+    padding: 9px;
+    margin: 7px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    color: #000;
+    width:200px;
+    height: 490px;
+    border-radius: 1%;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.res-card:hover     {
+    border: 1px solid black;
+} 
+
+.serach {
+    padding: 5px;
+}
+
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;  
+}
+
+.shimmer-card{
+    padding: 9px;
+    margin: 7px;
+    margin-top: 20px;
+    width:200px;
+    height: 450px;
+    border-radius: 1%;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    background-color: aliceblue;
+ }
+
+ .filter_res{
+    display: flex;
+ }
+
+ .serach{
+    border: 1px solid #000;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+ }
+
+ .serach-btn{
+    border: 1px solid #000;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px; 
+    border-radius: 4px;
+ }
+
+ .MenuItems{
+    justify-content: center;
+ }
